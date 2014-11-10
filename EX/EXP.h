@@ -8,10 +8,6 @@ class Existential_Exception : public std::logic_error
 	public:
 		Existential_Exception() : std::logic_error(
 		"\nExistential Crisis\n") { } 
-	private:
-	
-
 };
 
-		
 #endif

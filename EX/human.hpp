@@ -4,8 +4,8 @@
 class Human
 {
 	public:
-	bool exist();
-	void purpose(const std::string&);
+		bool exist();
+		void purpose(const std::string&);
 	private:
 		bool ext;
 		std::string P; /* Purpose */
@@ -14,26 +14,18 @@ class Human
 /* checks for the objects existance */
 bool Human::exist()
 {
-
 	/* Do I really exist? */
-
 	/* Cogito ergo sum */
 	if (this != NULL) {
 		ext = true;
 	}
 	return ext;
-
 }
 
 void Human::purpose(const std::string& purp="")
 {
-		if (purp == "") 
+		if (purp == "")
 			throw(Existential_Exception());
-		else 
+		else
 			P = purp;
-	
-				
-
-
-
 }
