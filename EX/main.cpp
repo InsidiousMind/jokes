@@ -12,5 +12,5 @@ int main()
 		cout << "What is my purpose?\n";
 		Alec.purpose();
 	}
-return 0; /* EXIT SUCCESS */
+	return 0; /* EXIT SUCCESS */
 }
